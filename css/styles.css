@@ -1,0 +1,196 @@
+body {
+	display: none;
+}
+a {
+	text-decoration: none !important;
+}
+.nav {
+	background-color: rgba(58,116,193,0.8);
+	box-shadow: 0px 2px 20px black;
+	position: fixed;
+	width: 100%;
+}
+#tab_full {
+	z-index: 2;
+}
+#tab_full .pull-right {
+	margin-top: 16px;
+}
+#tab_full .pull-right a {
+	font-weight: 600;
+}
+.nav .pull-right a:hover,
+#contact a:hover {
+	color: #fff;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+}
+.nav a {
+	font-family: 'Poiret One', cursive;
+}
+.nav strong {
+	font-family: 'Coming Soon', cursive;
+	color: #00FFFF;
+	font-size: 16px;
+}
+.nav li {
+	display: inline-block;
+	min-width: 50px;
+	text-align: center;
+	margin: 0 10px;
+	cursor: pointer;
+}
+.nav .pull-right a {
+	color: black;
+}
+#tab_full .me {
+	height: 80px;
+}
+.fa-2 {
+	font-size: 2em;
+}
+.fa-25 {
+	font-size: 2.5em;
+}
+#tab_mobile {
+	background-color: rgb(58,116,193);
+	z-index: 2;
+}
+#tab_mobile .me {
+	height: 50px;
+}
+#tab_mobile .pull-right {
+	padding: 11px 0;
+}
+#sub_tabs {
+	display: none;
+	padding: 50px 0 0 0;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+#sub_tabs .col-xs-12 {
+	padding: 11px 50px;
+	background-color: rgb(58,116,193);
+}
+#sub_tabs a {
+	font-family: 'Poiret One', cursive;
+	font-weight: 600;
+	letter-spacing: 1px;
+}
+#sub_tabs a {
+	color: black;
+}
+#sub_tabs span {
+	font-size: 16px;
+	vertical-align: text-bottom;
+	margin-left: 30px;
+}
+.active {
+	color: aqua !important;
+}
+#content {
+	padding: 0;
+}
+.heading {
+	line-height: 1.3;
+	font-family: 'Poiret One', cursive;
+	font-weight: 100;
+	margin-top: 40px;
+}
+.heading_p {
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+.active_sub {
+	margin-bottom: 20px;
+	color: black;
+}
+.active_sub h3 {
+	display: inline-block;
+	vertical-align: super;
+}
+#home {
+	font-family: 'Poiret One', cursive !important;
+	background-color: rgb(64, 80, 123);
+}
+#home, #profile, #abilities, #about, #contact {
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 1px;
+	font-size: 18px;
+	color: white;
+}
+#profile, #about {
+	background-color: rgb(104,104,104);
+}
+#abilities {
+	background-color: rgb(97, 131, 167);
+}
+#abilities > div > div > * {
+	clear: both;
+}
+#contact {
+	background-color: rgb(64, 80, 123);
+}
+#abilities ul {
+	margin-bottom: 0;
+	z-index: 0;
+}
+hr {
+	margin: 40px 0;
+	opacity: 0.2;
+}
+#contact span {
+	font-size: 15px;
+	vertical-align: super;
+	margin-left: 10px;
+	font-weight: bold;
+}
+#contact a {
+	color: black;
+}
+.fa-twitter-square {
+	margin: 0 20px;
+}
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+::-webkit-scrollbar-thumb {
+  background: slategray;
+}
+::-webkit-scrollbar-track {
+  background: #b7bfc7;
+}
+body {
+  scrollbar-face-color: slategray;
+  scrollbar-track-color: #b7bfc7;
+}
+#first {
+	pointer-events: none;
+}
+#second {
+	background: aqua;
+	position: fixed;
+	z-index: 1031;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2px;
+	transform: translate3d(-100%, 0px, 0px);
+	transition: all 200ms ease;
+}
+#circle {
+	display: block;
+	position: absolute;
+	right: 0px;
+	width: 100px;
+	height: 100%;
+	box-shadow: 0 0 10px #29d, 0 0 5px #29d;
+	opacity: 1.0;
+	-webkit-transform: rotate(3deg) translate(0px, -4px);
+	-ms-transform: rotate(3deg) translate(0px, -4px);
+	transform: rotate(3deg) translate(0px, -4px);
+}

@@ -1,0 +1,55 @@
+/* Navigation for lg and md screens */
+@media only screen and (min-width : 769px) {
+	#tab_mobile {display: none;}
+	#home {padding: 22% 20%;}
+	#profile, #abilities, #about, #contact {
+		padding: 0 20%;
+		line-height: 35px;
+	}
+	.active_sub, .left {text-align: left;}
+	.fa-facebook-square, .fa-twitter-square, .fa-linkedin-square {font-size: 4em;}
+	#contact span {font-size: 20px;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	#tab_mobile {display: none;}
+	#home {padding: 25% 20%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	#tab_mobile {display: none;}
+	#home {padding: 25% 20%;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	#tab_mobile {display: none;}
+	#home {padding: 35% 150px;}
+	#profile, #abilities, #about, #contact {
+		padding: 0 20%;
+		line-height: 35px;
+	}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+	#tab_full {display: none;}
+	#home {padding: 70% 40px;}
+}
+
+/* Custom */
+@media only screen and (max-width : 640px) {
+	#tab_full {display: none !important;}
+	#tab_mobile {display: block;}
+	#home {padding: 70% 40px;}
+	#profile, #abilities, #about, #contact {
+		padding: 0 10%;
+		line-height: 30px;
+	}
+}
+@media only screen and (max-width : 320px) {
+	#tab_full {display: none;}
+	#home {padding: 150px 40px;}
+}
